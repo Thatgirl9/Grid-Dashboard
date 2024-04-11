@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100%;
+}
+
+.container {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+div,
+article {
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: black;
+  /* border-radius: 15px; */
+}
+
+.side-bar {
+  background-color: #005b94;
+  grid-row: 1/4;
+}
+
+.header {
+  background-color: #642cde;
+}
+
+.article {
+  background-color: #7e1dc3;
+}
