@@ -7,12 +7,151 @@
   <link rel="icon" href="./assets/Icons/icons8-dashboard-16.png" type="image/svg+xml" />
   <!-- Stylesheet -->
   <link rel="stylesheet" href="./grid.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <title>Grid Dashboard</title>
 </head>
 
 <body>
   <main class="container">
-    <div class="side-bar">Sidebar</div>
+    <!-- SIDE-BAR -->
+    <div class="side-bar">
+      <!-- Grid Icon and text -->
+      <div class="icon__text">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="38px" height="38px"
+          fill="#fff">
+          <path d="M240 240H32V32h208zM480 240H272V32h208zM240 480H32V272h208zM480 480H272V272h208z" />
+        </svg>
+
+
+        <path d="M416 174.74V48h-80v58.45L256 32 0 272h64v208h144V320h96v160h144V272h64l-96-97.26z" />
+        </svg>
+        <h3>Dashboard</h3>
+      </div>
+
+      <!-- ICONS -->
+      <!--  1ST SET -->
+      <div class="icons">
+
+
+        <!-- Home Icon and Text -->
+        <div class="icon__text icon__text_div">
+
+          <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="24px" height="24px"
+            fill="#fff">
+            <path d="M416 174.74V48h-80v58.45L256 32 0 272h64v208h144V320h96v160h144V272h64l-96-97.26z" />
+          </svg>
+          <h4>Home</h4>
+        </div>
+
+
+        <!-- Profile Icon and Text -->
+        <div class="icon__text icon__text_div">
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="24px" height="24px" fill="#fff">
+            <path
+              d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z" />
+          </svg>
+
+
+          <h4>Profile</h4>
+        </div>
+
+        <!-- Message Icon and Text -->
+        <div class="icon__text  icon__text_div">
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24px" height="24px" fill="#fff">
+            <path
+              d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z" />
+          </svg>
+          <path d="M416 174.74V48h-80v58.45L256 32 0 272h64v208h144V320h96v160h144V272h64l-96-97.26z" />
+          </svg>
+          <h4>Messages</h4>
+        </div>
+
+
+        <!-- History(clock) icon and Text -->
+        <div class="icon__text icon__text_div">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24px" height="24px" fill="#fff">
+            <path
+              d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+          </svg>
+
+
+          <path d="M416 174.74V48h-80v58.45L256 32 0 272h64v208h144V320h96v160h144V272h64l-96-97.26z" />
+          </svg>
+          <h4>History</h4>
+        </div>
+
+
+        <!-- Task(File) Icon and Text -->
+        <div class="icon__text icon__text_div">
+          <img src="./assets/Icons/tasks.png" alt="Tasks Icon" width="24px" height="24px">
+
+          <h4>Tasks</h4>
+        </div>
+
+        <!-- Communities(users) Icon and Text -->
+        <div class="icon__text  icon__text_div">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="24px" height="24px" fill="#fff">
+            <path
+              d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z" />
+          </svg>
+          <h4>Communities</h4>
+        </div>
+
+
+      </div>
+
+      <!-- 2ND SET -->
+      <div class="icons">
+
+        <!-- Settings Icon and Text -->
+        <div class="icon__text  icon__text_div">
+
+          <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="24px" height="24px"
+            fill="#fff">
+            <path
+              d="M256 176a80 80 0 1080 80 80.24 80.24 0 00-80-80zm172.72 80a165.53 165.53 0 01-1.64 22.34l48.69 38.12a11.59 11.59 0 012.63 14.78l-46.06 79.52a11.64 11.64 0 01-14.14 4.93l-57.25-23a176.56 176.56 0 01-38.82 22.67l-8.56 60.78a11.93 11.93 0 01-11.51 9.86h-92.12a12 12 0 01-11.51-9.53l-8.56-60.78A169.3 169.3 0 01151.05 393L93.8 416a11.64 11.64 0 01-14.14-4.92L33.6 331.57a11.59 11.59 0 012.63-14.78l48.69-38.12A174.58 174.58 0 0183.28 256a165.53 165.53 0 011.64-22.34l-48.69-38.12a11.59 11.59 0 01-2.63-14.78l46.06-79.52a11.64 11.64 0 0114.14-4.93l57.25 23a176.56 176.56 0 0138.82-22.67l8.56-60.78A11.93 11.93 0 01209.94 26h92.12a12 12 0 0111.51 9.53l8.56 60.78A169.3 169.3 0 01361 119l57.2-23a11.64 11.64 0 0114.14 4.92l46.06 79.52a11.59 11.59 0 01-2.63 14.78l-48.69 38.12a174.58 174.58 0 011.64 22.66z" />
+          </svg>
+
+          <h4>Settings</h4>
+        </div>
+
+        <!-- Support(Question box) Icon and text -->
+
+        <div class="icon__text  icon__text_div">
+          <img src="./assets/Icons/support.png" alt="Box-Question Icon" width="24px" height="24px">
+
+          <h4>Support</h4>
+        </div>
+
+        <!-- Privacy Icon and Text -->
+
+        <div class="icon__text  icon__text_div">
+          <img src="./assets/Icons/privacy.png" alt="Privacy Icon" width="24px" height="24px" fill="#fff">
+          <h4>Privacy</h4>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
     <div class="header">Header</div>
     <article class="article">Article</article>
   </main>
