@@ -40,7 +40,8 @@ body {
 .article {
   background-color: #ccc;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2.3fr 1fr;
+  column-gap: 1.7em;
   padding: 1em 1em 2em 1em;
 }
 
@@ -174,11 +175,8 @@ body {
 
 /* *Article* */
 
-.article__part__one h3 {
-  color: black;
-}
-
 .header__h3 {
+  color: black;
   font-size: 1.3rem;
   margin-bottom: 0.6em;
 }
@@ -215,4 +213,32 @@ body {
 
 .article__icons img:hover {
   cursor: pointer;
+}
+
+.article__part__two {
+  color: black;
+}
+
+.announce__div {
+  background-color: #fff;
+  padding: 1.5em 1.7em;
+  border-radius: 0.5em;
+  box-shadow: 3px 5px 4px rgba(133, 133, 133, 0.5);
+}
+
+.div__one {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #c8c6c6;
+}
+
+.announce__p {
+  color: #7d7d7d;
+  font-size: 0.9rem;
+  margin-top: 0.2em;
+  padding-bottom: 1em;
+}
+
+.two {
+  margin-top: 1em;
 }
