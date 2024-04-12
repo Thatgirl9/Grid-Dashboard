@@ -140,7 +140,7 @@ body {
 }
 
 .bell__avatar button {
-  background-color: var(--primary-bg-color);
+  background-color: transparent;
   border: none;
 }
 
@@ -287,4 +287,70 @@ body {
 .profile__text p {
   color: var(--secondary-text);
   margin-top: 0.2em;
+}
+
+/* *Mobile View* */
+
+@media screen and (max-width: 768px) {
+  /* *Layout* */
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10.5em 3fr;
+  }
+
+  .side-bar {
+    display: none;
+  }
+
+  .header {
+    padding: 0.7em 1em 1em 1em;
+  }
+
+  .article {
+    grid-template-columns: 1fr;
+    padding: 1em;
+    gap: 1.7em;
+  }
+
+  /* *Header* */
+
+  .part__one__header {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .search__input input {
+    width: 100%;
+  }
+
+  .bell__avatar {
+    gap: 1em;
+    padding-left: 1em;
+    justify-content: right;
+  }
+
+  .bell__avatar h3 {
+    display: none;
+  }
+
+  .part__two__header {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 1em;
+  }
+  .part__two__header .avatar__text {
+    display: none;
+  }
+
+  .buttons {
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* *Article* */
+
+  .article__div {
+    grid-template-columns: 1fr;
+    gap: 1.7em;
+  }
 }
