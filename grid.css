@@ -217,9 +217,13 @@ body {
 
 .article__part__two {
   color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 1.9em;
 }
 
-.announce__div {
+.announce__div,
+.trending__div {
   background-color: #fff;
   padding: 1.5em 1.7em;
   border-radius: 0.5em;
@@ -241,4 +245,22 @@ body {
 
 .two {
   margin-top: 1em;
+}
+
+.trending__div {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.profile__text {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.profile__text p {
+  color: #6d6c6c;
+  margin-top: 0.2em;
 }
