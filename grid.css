@@ -41,6 +41,7 @@ body {
   background-color: #ccc;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  padding: 1em 1em 2em 1em;
 }
 
 /* *STYLES* */
@@ -118,6 +119,10 @@ body {
   border: none;
 }
 
+.bell__avatar button:hover {
+  cursor: pointer;
+}
+
 .avatar__name {
   display: flex;
   gap: 1.5em;
@@ -165,4 +170,49 @@ body {
   width: 6.5em;
   border-radius: 3em;
   font-weight: 600;
+}
+
+/* *Article* */
+
+.article__part__one h3 {
+  color: black;
+}
+
+.header__h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.6em;
+}
+
+.article__div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.7em;
+}
+
+.article__one {
+  background-color: #fff;
+  color: black;
+  padding: 2em 1em;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: rgb(230, 166, 58);
+  border-radius: 0.5em;
+  box-shadow: 3px 5px 4px rgba(133, 133, 133, 0.5);
+}
+
+.article__p {
+  color: #7d7d7d;
+  font-size: 0.9rem;
+  margin-top: 0.2em;
+}
+
+.article__icons {
+  display: flex;
+  gap: 1.5em;
+  margin-top: 2em;
+  justify-content: end;
+}
+
+.article__icons img:hover {
+  cursor: pointer;
 }
